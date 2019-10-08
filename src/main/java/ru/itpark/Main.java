@@ -21,6 +21,6 @@ public class Main {
 
         Cart cart = new Cart();
         cart.add(lego70419, 2);
-        System.out.println(cart.getTotalCost(2));
+        System.out.println(cart.getTotalCost(70419));
     }
 }
