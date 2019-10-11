@@ -20,7 +20,7 @@ public class Main {
         System.out.println(lego70419.getName());
 
         Cart cart = new Cart();
-        cart.add(lego70419, 2);
-        System.out.println(cart.getTotalCost(70419));
+        cart.add(lego70419);
+        System.out.println(cart.getTotalCost());
     }
 }
