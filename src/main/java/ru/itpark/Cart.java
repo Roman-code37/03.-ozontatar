@@ -2,7 +2,7 @@ package ru.itpark;
 import ru.itpark.Lego;
 public class Cart {
     private int cost;
-    private int amountOfGoods = 2;
+    private int amountOfGoods;
     private int costIncludingDiscounts;
     private int totalCost;
     private boolean legoAdded;
